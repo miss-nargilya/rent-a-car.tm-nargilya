@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: medium;
+    color: black;
+
+}
+header {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(152, 152, 252);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header>.body {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    word-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    
+}
